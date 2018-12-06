@@ -23,6 +23,9 @@
         <form class="experiment1_button">
             This will be replaced too, with a button for the form
         </form>
+        <form class="experiment1_button2">
+            This will be replaced too, with a button for the form
+        </form>
     </body>
 
     <script type="text/javascript">
@@ -33,7 +36,8 @@
                  'experiment1_text': 'Red is stop, green is go',
                  'experiment1_button':
                        '<input type="button" value="Red" onclick="ga(\'send\', \'event\', \'Red buttonclick\', \'Normal\'); alert(\'Thanks!\');">'
-                       '<input type="button" value="Green" onclick="ga(\'send\', \'event\', \'Green buttonclick\', \'Normal\'); alert(\'Thanks!\');">'
+                 'experiment1_button2':     
+                        '<input type="button" value="Green" onclick="ga(\'send\', \'event\', \'Green buttonclick\', \'Normal\'); alert(\'Thanks!\');">'
 
              },
              {
@@ -41,6 +45,7 @@
                  'experiment1_text': 'Green is stop, red is go',
                  'experiment1_button':
                        '<input type="button" value="Red" onclick="ga(\'send\', \'event\', \'Red buttonclick\', \'Switched\'); alert(\'You will be spared.\');">'
+                 'experiment1_button2':
                        '<input type="button" value="Green" onclick="ga(\'send\', \'event\', \'Green buttonclick\', \'Switched\'); alert(\'You will be spared.\');">'
              }
          ]
